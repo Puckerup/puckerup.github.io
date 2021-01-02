@@ -1,0 +1,255 @@
+
+body
+{
+    margin: 2px;
+    background: #ffb6c11f;
+    font-family:Arial,Verdana,sans-serif;
+
+}
+h2{
+    background: deeppink;
+    color: white;
+}
+#container{
+    margin: 2px;
+}
+#section1{
+    float: right;
+    width: 74%;
+    margin-left: 3%;
+    text-align: center;
+}
+#siteNav{
+    float: left;
+    width: 20%;
+    margin-right: 3%;
+    font-size: larger;
+    text-align: left;
+
+}
+
+#siteNav ul{
+    background-color: #c78f92;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   /* width: 200px;*/
+}
+#siteNav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+
+}
+#siteNav ul li a:hover{
+    background-color: deeppink;
+    color: white;
+
+}
+#siteNav ul li{
+    /*list-style-type: none;*/
+    padding:8px
+}
+.logo
+{
+    object-fit:fill;
+    width: 100%;
+    height: 150px;
+
+}
+.section2{
+    float: left;
+    width: 100%;
+    display: inline-block;
+}
+.inner-section1{
+    float: left;
+    width: 25%;
+}
+.inner-section2{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.inner-section3{
+    float: right;
+    width: 25%;
+    text-align: right;
+}
+
+.section2 section img{
+    width: 200px;
+    height: 200px;
+    border-radius: 140px;
+
+}
+
+#section3
+{
+    float: left;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.banner
+{
+    background-image:url("images/giveaway.png");
+}
+#footer
+{
+    background:  #c78f92;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+#contact-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #c78f92;
+    color: white;
+    text-align: center;
+
+}
+
+#contact-section
+{
+    float: right;
+    width: 74%;
+    margin-right: 3%;
+    text-align: center;
+}
+#product-header{
+    background: deeppink;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+#offer-header{
+    background: deeppink;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background: lightpink;
+    font-family: Bahnschrift;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+    padding: 2px;
+    text-align: center;
+
+}
+.card-img
+{
+    padding:10px;
+    width: 210px;
+    height: 260px;
+
+}
+table{
+    width:100%;
+
+}
+tr {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+td {
+    width: 50%;
+    box-sizing:border-box;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body
+    {
+       font-size: 20px;
+
+    }
+    #siteNav{
+        float: none;
+        width: 100%;
+        margin-right: 3%;
+        font-size: larger;
+        text-align: left;
+    }
+    .logo
+    {
+        object-fit:fill;
+        width: 100%;
+        height: auto;
+
+    }
+    #section1{
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .section2{
+        float: none;
+        text-align: center;
+
+    }
+    .inner-section1{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .inner-section2{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .inner-section3{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .section2 section img{
+        width: 100px;
+        height: 100px;
+        border-radius: 140px;
+    }
+
+    #contact-section
+    {
+        float: none;
+        width: 100%;
+        margin-left: 0px;
+
+    }
+    #product-header{
+        font-size: 30px;
+    }
+
+    td{
+        width:100%;
+    }
+    .card {
+        font-size: 20px;
+    }
+
+}
