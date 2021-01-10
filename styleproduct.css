@@ -1,0 +1,143 @@
+body
+{
+    margin: 2px;
+    background: #ffb6c11f;
+    font-family:Arial,Verdana,sans-serif;
+
+}
+#container{
+    margin: 2px;
+}
+
+#siteNav{
+    float: left;
+    width: 20%;
+    margin-right: 3%;
+    font-size: larger;
+    text-align: left;
+
+}
+
+#siteNav ul{
+    background-color: #c78f92;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   /* width: 200px;*/
+}
+#siteNav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+
+}
+#siteNav ul li a:hover{
+    background-color: deeppink;
+    color: white;
+
+}
+#siteNav ul li{
+    /*list-style-type: none;*/
+    padding:8px
+}
+
+.logo
+{
+    object-fit:fill;
+    width: 100%;
+    height: 150px;
+
+}
+#contact-section
+{
+    float: right;
+    width: 74%;
+    margin-right: 3%;
+    text-align: center;
+}
+#product-header{
+    background: deeppink;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background: lightpink;
+    font-family: Bahnschrift;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+    padding: 2px;
+    text-align: center;
+
+}
+.card-img
+{
+    padding:10px;
+    width: 210px;
+    height: 260px;
+
+}
+table{
+    width:100%;
+
+}
+tr {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+td {
+    width: 50%;
+    box-sizing:border-box;
+    text-align: center;
+    padding: 15px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body
+    {
+       font-size: 20px;
+
+    }
+    #siteNav{
+        float: none;
+        width: 100%;
+        margin-right: 3%;
+        font-size: larger;
+        text-align: left;
+    }
+    .logo
+    {
+        object-fit:fill;
+        width: 100%;
+        height: auto;
+
+    }
+    #contact-section
+    {
+        float: none;
+        width: 100%;
+        margin-left: 0px;
+
+    }
+    #product-header{
+        font-size: 30px;
+    }
+
+    td{
+        width:100%;
+    }
+    .card {
+        font-size: 20px;
+    }
+
+}
